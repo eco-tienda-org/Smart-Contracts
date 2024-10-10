@@ -2,7 +2,7 @@ const { ethers } = require('hardhat');
 
 async function main(){
     // direccion del contracto del NFT
-    const contractAddress = "0x86C4e9496c4Ac28A9CFC14c312E3F5EE6EdF644d";
+    const contractAddress = "0x9c66d2d5adc7dfc4fa7c92481c62b2bf98b06864";
 
     // obtener el contrato a partir del contrato ABI
     const NftTeto =  await ethers.getContractFactory('NftTETO');
