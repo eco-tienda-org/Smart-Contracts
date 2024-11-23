@@ -5,7 +5,11 @@ module.exports = {
   solidity: "0.8.24",
   networks: {
     ganache:{
-      url: "http://127.0.0.1:7545"
+      url: "http://127.0.0.1:7545", // URL correcta de Ganache
+      chainId: 1337, // ID de red
+      accounts: [
+          "0x52d54775251184dbb7cbdff4cddecba764ff902bb31ac66bf9621ca3c179060e"
+      ]
     },
     besu:{
       url: "http://localhost:8545"
